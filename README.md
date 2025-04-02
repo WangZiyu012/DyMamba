@@ -22,7 +22,7 @@ To install the packages, run
 pip install -r requirements.txt
 ```
 
-### Model Training
+## Model Training
 * Example of training *DyGMamba* on *Wikipedia* dataset:
 ```{bash}
 python train_link_prediction.py --dataset_name wikipedia --model_name DyGMamba --patch_size 2 --max_input_sequence_length 64 --num_runs 5 --gpu 0
@@ -31,7 +31,7 @@ python train_link_prediction.py --dataset_name wikipedia --model_name DyGMamba -
 ```{bash}
 python train_link_prediction.py --dataset_name wikipedia --model_name DyGMamba --load_best_configs --num_runs 5 --gpu 0
 ```
-### Model Evaluation
+## Model Evaluation
 Three (i.e., random, historical, and inductive) negative sampling strategies can be used for model evaluation.
 * Example of evaluating *DyGMamba* with *random* negative sampling strategy on *Wikipedia* dataset:
 ```{bash}
