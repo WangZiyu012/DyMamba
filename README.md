@@ -1,4 +1,4 @@
-# DyGMamba: Efficiently Modeling Long-Term Temporal Dependency on Continuous-Time Dynamic Graphs with State Space Models
+
 
 
 ## Evaluation Tasks
